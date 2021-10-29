@@ -8,7 +8,7 @@ interface Props {
 export const ComicListing: FC<Props> = ({comic}) => {
   
    
-    const [likedComics, setLikedComics] = React.useContext<object[]>(LikedComicsContext)
+    const [likedComics, setLikedComics] = React.useContext(LikedComicsContext)
 
     function handleAdd() {
 
